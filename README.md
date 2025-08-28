@@ -16,11 +16,11 @@
 ## 📊 사용 데이터
 
 |번호|데이터 명|출처|
-|:--:|:--:|:--:|
+|:--:|:--:|--|
 |1|서울시 가구원수별 가구- 읍면동(연도 끝자리 0,5), 시군구(그 외 연도) 통계|https://data.seoul.go.kr/dataList/10996/S/2/datasetView.do|
 |2|정신건강복지센터 등록회원 장기재원 경험률(자치구)|https://data.seoul.go.kr/dataList/OA-20334/A/1/datasetView.do?utm_source=chatgpt.com|
 |3|서울시 사회복지시설(노인여가복지시설) 목록|https://data.seoul.go.kr/dataList/OA-20412/S/1/datasetView.do?utm_source=chatgpt.com|
-|4||기관유형별 정신건강증진기관 수(자치구)|https://data.seoul.go.kr/dataList/OA-20328/S/1/datasetView.do?utm_source=chatgpt.com|
+|4|기관유형별 정신건강증진기관 수(자치구)|https://data.seoul.go.kr/dataList/OA-20328/S/1/datasetView.do?utm_source=chatgpt.com|
 |5|2021년 서울시 고독사 위험 현황 연구|http://kodocsi.or.kr/|
 |6|서울시_자치구_경계_2017.geojson|https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%EC%9A%B8%EC%8B%9C_%EC%9E%90%EC%B9%98%EA%B5%AC/%EC%84%9C%EC%9A%B8_%EC%9E%90%EC%B9%98%EA%B5%AC_%EA%B2%BD%EA%B3%84_2017.geojson|
 </br>

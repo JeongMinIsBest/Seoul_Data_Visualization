@@ -3,46 +3,28 @@
 서울시 데이터 허브에서 제공하는 공공 데이터를 활용하여, 서울시 자치구별 1인가구 현황 및 고독사 위험을 분석하고 시각화합니다.
 데이터 분석 및 시각화를 통해 서울시 각 자치구별 1인가구, 복지 시설 등을 분석하여 정책적 제안을 목표로 합니다.
 </br>
-
-
+  
+  
 ## 🚀 프로젝트 목표
 
 *   서울시 자치구별 1인가구 수 및 복지시설 등의 분포를 지도에 시각화합니다.
 *   다양한 변수들 간의 상관 관계를 파악하여 1인가구 수에 영향을 미치는 요인을 탐색합니다.
 *   클러스터링 분석을 통해 1인가구 특성이 유사한 자치구들을 그룹화하고, 각 그룹의 특징을 도출합니다.
 </br>
-
-
+  
+  
 ## 📊 사용 데이터
 
-*   **주요 데이터:** [서울시 자치구 연령대별 1인가구수](https://data.seoul.go.kr/) (서울 열린데이터 광장)
-*   **공간 데이터:** [서울 자치구 경계 GeoJSON](https://github.com/vuski/seoul-geojson) (2017년 기준)
-
-
-
-
-번호
-데이터 명
-출처
-1
-서울시 가구원수별 가구- 읍면동(연도 끝자리 0,5), 시군구(그 외 연도) 통계
-https://data.seoul.go.kr/dataList/10996/S/2/datasetView.do
-2
-정신건강복지센터 등록회원 장기재원 경험률(자치구)
-https://data.seoul.go.kr/dataList/OA-20334/A/1/datasetView.do?utm_source=chatgpt.com
-3
-서울시 사회복지시설(노인여가복지시설) 목록
-https://data.seoul.go.kr/dataList/OA-20412/S/1/datasetView.do?utm_source=chatgpt.com
-4
-기관유형별 정신건강증진기관 수(자치구)
-https://data.seoul.go.kr/dataList/OA-20328/S/1/datasetView.do?utm_source=chatgpt.com
-5
-2021년 서울시 고독사 위험 현황 연구
-http://kodocsi.or.kr/
-6
-서울시_자치구_경계_2017.geojson
-https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%EC%9A%B8%EC%8B%9C_%EC%9E%90%EC%B9%98%EA%B5%AC/%EC%84%9C%EC%9A%B8_%EC%9E%90%EC%B9%98%EA%B5%AC_%EA%B2%BD%EA%B3%84_2017.geojson
-
+|:번호:|:데이터 명:|:출처:|
+|1|서울시 가구원수별 가구- 읍면동(연도 끝자리 0,5), 시군구(그 외 연도) 통계|https://data.seoul.go.kr/dataList/10996/S/2/datasetView.do|
+|2|정신건강복지센터 등록회원 장기재원 경험률(자치구)|https://data.seoul.go.kr/dataList/OA-20334/A/1/datasetView.do?utm_source=chatgpt.com|
+|3|서울시 사회복지시설(노인여가복지시설) 목록|https://data.seoul.go.kr/dataList/OA-20412/S/1/datasetView.do?utm_source=chatgpt.com|
+|4||기관유형별 정신건강증진기관 수(자치구)|https://data.seoul.go.kr/dataList/OA-20328/S/1/datasetView.do?utm_source=chatgpt.com|
+|5|2021년 서울시 고독사 위험 현황 연구|http://kodocsi.or.kr/|
+|6|서울시_자치구_경계_2017.geojson|https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%EC%9A%B8%EC%8B%9C_%EC%9E%90%EC%B9%98%EA%B5%AC/%EC%84%9C%EC%9A%B8_%EC%9E%90%EC%B9%98%EA%B5%AC_%EA%B2%BD%EA%B3%84_2017.geojson|
+</br>
+  
+  
 ## 🔬 분석 내용
 
 이 프로젝트는 3개의 Jupyter Notebook 파일로 구성되어 있으며, 각 파일의 분석 내용은 다음과 같습니다.
@@ -56,9 +38,11 @@ https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%E
     *   상관관계 히트맵(heatmap)을 통해 변수들 사이의 연관성 강도를 분석합니다.
 
 3.  **클러스터링 및 시각화 (`서울시 데이터 허브 시각화_클러스터링 및 시각화.ipynb`)**
-    *   K-Means 클러스터링 알고리즘을 사용하여 1인 가구 관련 특성이 비슷한 자치구들을 몇 개의 그룹으로 군집화합니다.
+    *   클러스터링 알고리즘(K-Means, K-Medoids, DBSCAN, Hierarchical)을 사용하여 1인 가구 관련 특성이 비슷한 자치구들을 몇 개의 그룹으로 군집화합니다.
     *   각 클러스터(그룹)의 특징을 분석하고, 클러스터링 결과를 지도에 시각화하여 그룹별 공간적 분포를 확인합니다.
-
+</br>
+  
+  
 ## 📁 폴더 구조
 
 ```
@@ -71,23 +55,6 @@ https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%E
 ├── 서울시 데이터 허브 시각화_산점도 및 상관관계.ipynb
 └── 서울시 데이터 허브 시각화_클러스터링 및 시각화.ipynb
 ```
+</br>
 
-## ⚙️ 실행 방법
-
-1.  **저장소 복제**
-    ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name/데이터 분석 및 시각화 결과물
-    ```
-
-2.  **필요한 라이브러리 설치**
-    *   프로젝트에 사용된 라이브러리 목록을 `requirements.txt` 파일로 만들어 관리하는 것을 권장합니다.
-    ```bash
-    pip install pandas geopandas matplotlib seaborn scikit-learn jupyterlab
-    ```
-
-3.  **Jupyter Notebook 실행**
-    ```bash
-    jupyter lab
-    ```
-    Jupyter Lab 환경에서 원하는 `.ipynb` 파일을 열어 코드를 실행하고 결과를 확인할 수 있습니다.
+    

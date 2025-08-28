@@ -16,7 +16,7 @@
 ## 📊 사용 데이터
 
 |번호|데이터 명|출처|
-|:--:|:--:|--|
+|:--:|--|--|
 |1|서울시 가구원수별 가구- 읍면동(연도 끝자리 0,5), 시군구(그 외 연도) 통계|https://data.seoul.go.kr/dataList/10996/S/2/datasetView.do|
 |2|정신건강복지센터 등록회원 장기재원 경험률(자치구)|https://data.seoul.go.kr/dataList/OA-20334/A/1/datasetView.do?utm_source=chatgpt.com|
 |3|서울시 사회복지시설(노인여가복지시설) 목록|https://data.seoul.go.kr/dataList/OA-20412/S/1/datasetView.do?utm_source=chatgpt.com|

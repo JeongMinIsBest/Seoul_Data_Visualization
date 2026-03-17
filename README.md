@@ -1,12 +1,10 @@
 # Analysis and Visualization of Solitary Household Death Risk Data in Seoul ⚠️
-
 Using public data provided by the Seoul Data Hub, this project analyzes and visualizes the status of single-person households and the risk of solitary deaths by district in Seoul.
 Through data analysis and visualization, the project analyzes single-person households and welfare facilities by district in Seoul with the goal of making policy proposals.
 </br>
   
   
 ## 🚀 Project Objectives
-
 *   Visualize the distribution of single-person households and welfare facilities by district in Seoul on a map.
 *   Identify correlations among various variables to explore factors affecting the number of single-person households.
 *   Group districts with similar characteristics of single-person households through clustering analysis and derive the characteristics of each group.
@@ -14,7 +12,6 @@ Through data analysis and visualization, the project analyzes single-person hous
   
   
 ## 📊 Data Used
-
 |No.|Dataset Name|Source|
 |:--:|:--:|--|
 |1|Households by Number of Members in Seoul – Eup/Myeon/Dong (years ending in 0 or 5), Si/Gun/Gu (other years)|[Link](https://data.seoul.go.kr/dataList/10996/S/2/datasetView.do)|
@@ -27,7 +24,6 @@ Through data analysis and visualization, the project analyzes single-person hous
   
   
 ## 🔬 Analysis Details
-
 This project consists of three Jupyter Notebook files, and the analysis contents of each file are as follows.
 
 1.  **Map Visualization (`Seoul Data Hub Visualization_Map Visualization.ipynb`)**
@@ -45,7 +41,6 @@ This project consists of three Jupyter Notebook files, and the analysis contents
   
   
 ## 📁 Folder Structure
-
 ```
 Data Analysis and Visualization Outputs/
 ├── data/

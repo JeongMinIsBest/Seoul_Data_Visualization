@@ -1,16 +1,16 @@
 # Analysis and Visualization of Solitary Household Death Risk Data in Seoul ⚠️
 Using public data provided by the Seoul Data Hub, this project analyzes and visualizes the status of single-person households and the risk of solitary deaths by district in Seoul.
 Through data analysis and visualization, the project analyzes single-person households and welfare facilities by district in Seoul with the goal of making policy proposals.
-</br>
-  
+<br/>
+<br/>
   
 ## 🚀 Project Objectives
 *   Visualize the distribution of single-person households and welfare facilities by district in Seoul on a map.
 *   Identify correlations among various variables to explore factors affecting the number of single-person households.
 *   Group districts with similar characteristics of single-person households through clustering analysis and derive the characteristics of each group.
-</br>
-  
-  
+<br/>
+<br/>
+
 ## 📊 Data Used
 |No.|Dataset Name|Source|
 |:--:|:--:|--|
@@ -20,8 +20,8 @@ Through data analysis and visualization, the project analyzes single-person hous
 |4|Number of Mental Health Promotion Institutions by Institution Type (by district)|[Link](https://data.seoul.go.kr/dataList/OA-20328/S/1/datasetView.do?utm_source=chatgpt.com)|
 |5|2021 Study on the Status of Solitary Death Risk in Seoul|[Link](http://kodocsi.or.kr/)|
 |6|Seoul_District_Boundary_2017.geojson|[Link](https://github.com/datainworld/administrative_district/blob/master/3_%EC%84%9C%EC%9A%B8%EC%8B%9C_%EC%9E%90%EC%B9%98%EA%B5%AC/%EC%84%9C%EC%9A%B8_%EC%9E%90%EC%B9%98%EA%B5%AC_%EA%B2%BD%EA%B3%84_2017.geojson)|
-</br>
-  
+<br/>
+<br/>
   
 ## 🔬 Analysis Details
 This project consists of three Jupyter Notebook files, and the analysis contents of each file are as follows.
@@ -37,8 +37,8 @@ This project consists of three Jupyter Notebook files, and the analysis contents
 3.  **Clustering and Visualization (`Seoul Data Hub Visualization_Clustering and Visualization.ipynb`)**
     *   Uses clustering algorithms (K-Means, K-Medoids, DBSCAN, Hierarchical) to cluster districts with similar characteristics related to single-person households into several groups.
     *   Analyzes the characteristics of each cluster (group) and visualizes clustering results on a map to examine spatial distributions by group.
-</br>
-  
+<br/>
+<br/>
   
 ## 📁 Folder Structure
 ```
@@ -51,4 +51,5 @@ Data Analysis and Visualization Outputs/
 ├── Seoul Data Hub Visualization_Scatter Plot and Correlation.ipynb
 └── Seoul Data Hub Visualization_Clustering and Visualization.ipynb
 ```
-</br>
+<br/>
+<br/>

@@ -1,4 +1,4 @@
-# Analysis and Visualization of Solitary Household Death Risk Data in Seoul ⚠️
+# ⚠️ Analysis and Visualization of Solitary Household Death Risk Data in Seoul 
 Using public data provided by the Seoul Data Hub, this project analyzes and visualizes the status of single-person households and the risk of solitary deaths by district in Seoul.
 Through data analysis and visualization, the project analyzes single-person households and welfare facilities by district in Seoul with the goal of making policy proposals.
 <br/>
